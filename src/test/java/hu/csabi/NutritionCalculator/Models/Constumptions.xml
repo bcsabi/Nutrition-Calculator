@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Consumptions>
+    <Date>2015.05.22.</Date>
+    <Protein>10</Protein>
+    <Carbohydrate>75</Carbohydrate>
+    <Fat>0</Fat>
+    <Calorie>320</Calorie>
+
+    <Date>2015.05.23.</Date>
+    <Protein>22</Protein>
+    <Carbohydrate>0</Carbohydrate>
+    <Fat>5</Fat>
+    <Calorie>220</Calorie>
+</Consumptions>

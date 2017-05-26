@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Foods>
+    <Name>Fehér kenyér</Name>
+    <Protein>10</Protein>
+    <Carbohydrate>75</Carbohydrate>
+    <Fat>0</Fat>
+    <Calorie>320</Calorie>
+
+    <Name>Csirkemell</Name>
+    <Protein>22</Protein>
+    <Carbohydrate>0</Carbohydrate>
+    <Fat>5</Fat>
+    <Calorie>220</Calorie>
+</Foods>
