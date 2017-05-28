@@ -1,14 +1,26 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <Foods>
-    <Name>Fehér kenyér</Name>
-    <Protein>10</Protein>
-    <Carbohydrate>75</Carbohydrate>
-    <Fat>0</Fat>
-    <Calorie>320</Calorie>
+    <Name>White rice</Name>
+    <Protein>6.6</Protein>
+    <Carbohydrate>79.3</Carbohydrate>
+    <Fat>0.6</Fat>
+    <Calorie>360</Calorie>
 
-    <Name>Csirkemell</Name>
-    <Protein>22</Protein>
-    <Carbohydrate>0</Carbohydrate>
-    <Fat>5</Fat>
-    <Calorie>220</Calorie>
+    <Name>Chicken breast</Name>
+    <Protein>21.2</Protein>
+    <Carbohydrate>0.0</Carbohydrate>
+    <Fat>2.6</Fat>
+    <Calorie>124</Calorie>
+
+    <Name>Egg</Name>
+    <Protein>12.6</Protein>
+    <Carbohydrate>1.8</Carbohydrate>
+    <Fat>9.5</Fat>
+    <Calorie>143</Calorie>
+
+    <Name>Broccoli</Name>
+    <Protein>2.8</Protein>
+    <Carbohydrate>6.6</Carbohydrate>
+    <Fat>0.3</Fat>
+    <Calorie>34</Calorie>
 </Foods>

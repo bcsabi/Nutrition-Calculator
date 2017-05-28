@@ -94,6 +94,15 @@ public class XMLWriterForConsumptions {
 
     }
 
+    /**
+     * A fogyasztási napló módosítását végre hajtó függvény.
+     * @param index módositandó dátum indexe
+     * @param protein az új bevitt fehérje mennyisége
+     * @param carbohydrate az új bevitt szénhidrát mennyisége
+     * @param fat az új bevitt zsír mennyisége
+     * @param calorie az új bevitt kalória mennyisége
+     * @throws Exception a kivételek kezelésére
+     */
     public void xmlModify(int index, String protein, String carbohydrate, String fat, String calorie) throws Exception{
 
         String xmlFile = "Consumptions.xml";

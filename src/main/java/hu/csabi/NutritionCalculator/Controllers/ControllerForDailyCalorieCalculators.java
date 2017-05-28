@@ -43,13 +43,15 @@ public class ControllerForDailyCalorieCalculators {
 
         double active;
 
+        if(train < 1) {active = 1.2;}
+        else if(train < 3) {active = 1.375;}
+        else if(train < 5) {active = 1.55;}
+        else if(train < 6) {active = 1.725;}
+        else {active = 1.9;}
+
         if(gender.equals("Male"))
         {
-            if(train < 1) {active = 1.2;}
-            else if(train < 3) {active = 1.375;}
-            else if(train < 5) {active = 1.55;}
-            else if(train < 6) {active = 1.725;}
-            else {active = 1.9;}
+
             bmr = (66 + (13.7 * weight) + (5 * height) - (6.8 * age));
             calorieToMaintainWeight = bmr * active;
             calorieToLoseWeight = calorieToMaintainWeight - 550;
@@ -58,11 +60,6 @@ public class ControllerForDailyCalorieCalculators {
 
         else
         {
-            if(train < 1) {active = 1.2;}
-            else if(train < 3) {active = 1.375;}
-            else if(train < 5) {active = 1.55;}
-            else if(train < 6) {active = 1.725;}
-            else {active = 1.9;}
             bmr = (655 + (9.6 * weight) + (1.8 * height) - (4.7 * age));
             calorieToMaintainWeight = bmr * active;
             calorieToLoseWeight = calorieToMaintainWeight - 550;
@@ -93,13 +90,15 @@ public class ControllerForDailyCalorieCalculators {
     {
         double active;
 
+        if(train < 1) {active = 1.2;}
+        else if(train < 3) {active = 1.375;}
+        else if(train < 5) {active = 1.55;}
+        else if(train < 6) {active = 1.725;}
+        else {active = 1.9;}
+
         if(gender.equals("Male"))
         {
-            if(train < 1) {active = 1.2;}
-            else if(train < 3) {active = 1.375;}
-            else if(train < 5) {active = 1.55;}
-            else if(train < 6) {active = 1.725;}
-            else {active = 1.9;}
+
             bmr = (66 + (6.23 * weight) + (12.7 * height) - (6.8 * age));
             calorieToMaintainWeight = bmr * active;
             calorieToLoseWeight = calorieToMaintainWeight - 550;
@@ -109,11 +108,7 @@ public class ControllerForDailyCalorieCalculators {
 
         else
         {
-            if(train < 1) {active = 1.2;}
-            else if(train < 3) {active = 1.375;}
-            else if(train < 5) {active = 1.55;}
-            else if(train < 6) {active = 1.725;}
-            else {active = 1.9;}
+
             bmr = (655 + (4.35 * weight) + (4.7 * height) - (4.7 * age));
             calorieToMaintainWeight = bmr * active;
             calorieToLoseWeight = calorieToMaintainWeight - 550;

@@ -114,7 +114,7 @@ public class ControllerForFoodsXML {
      * @return String "Calorie: x grams", ahol x = adott indexen lévő élelmiszer kalória mennyisége.
      */
     public String getCalorieByIndexAsString(int index){
-        return String.format("Calorie %.2f grams", xmlReaderForFoods.getCalorieList().get(index));
+        return String.format("Calorie: %.2f grams", xmlReaderForFoods.getCalorieList().get(index));
     }
 
 }

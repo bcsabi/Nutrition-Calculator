@@ -20,7 +20,7 @@ public class XMLReaderForConsumptions {
     /**
      * Az elmentett fogyasztásokat tartalmazó lista.
      */
-    private ArrayList<Consumption> consumptions = new ArrayList<>();
+    private static ArrayList<Consumption> consumptions = new ArrayList<>();
 
     /**
      * Az elmentett fogyasztásokat tartalmazó lista kiürítését megvalósító metódus.
@@ -28,6 +28,22 @@ public class XMLReaderForConsumptions {
     public void initTheConsumptionsList(){
         this.consumptions = new ArrayList<>();
     }
+
+    /**
+     * Empty Constructor.
+     */
+    public XMLReaderForConsumptions() {
+
+    }
+
+    /**
+     * Constructor.
+     * @param consumptions fogyasztások.
+     */
+    public XMLReaderForConsumptions(ArrayList<Consumption> consumptions) {
+        this.consumptions = consumptions;
+    }
+
 
     /**
      * A függvény az elmentett fogyasztásokat olvassa be a Consumptions xml-ből.

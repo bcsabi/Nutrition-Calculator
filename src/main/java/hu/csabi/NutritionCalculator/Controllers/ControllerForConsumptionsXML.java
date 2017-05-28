@@ -34,8 +34,7 @@ public class ControllerForConsumptionsXML {
             xmlReaderForConsumptions.xmlReader();
         }
         catch (Exception e){
-            //System.err.println("Controller");
-
+            e.printStackTrace();
         }
 
         return xmlReaderForConsumptions.getDateList();
@@ -86,7 +85,7 @@ public class ControllerForConsumptionsXML {
      * @param index A kiválasztott dátum indexe.
      * @return Double formátumban a kiválasztott dátumhoz tartozó fehérje bevitel.
      */
-    public Double getProteinByDate(int index){
+    public double getProteinByDate(int index){
         return xmlReaderForConsumptions.getProteinList().get(index);
     }
 
@@ -95,7 +94,7 @@ public class ControllerForConsumptionsXML {
      * @param index A kiválasztott dátum indexe.
      * @return Double formátumban a kiválasztott dátumhoz tartozó szénhidrát bevitel.
      */
-    public Double getCarbohydrateByDate(int index){
+    public double getCarbohydrateByDate(int index){
         return xmlReaderForConsumptions.getCarbohydrateList().get(index);
     }
 
@@ -104,7 +103,7 @@ public class ControllerForConsumptionsXML {
      * @param index A kiválasztott dátum indexe.
      * @return Double formátumban a kiválasztott dátumhoz tartozó zsír bevitel.
      */
-    public Double getFatByDate(int index){
+    public double getFatByDate(int index){
         return xmlReaderForConsumptions.getFatList().get(index);
     }
 
@@ -113,7 +112,7 @@ public class ControllerForConsumptionsXML {
      * @param index A kiválasztott dátum indexe.
      * @return Double formátumban a kiválasztott dátumhoz tartozó kalória bevitel.
      */
-    public Double getCalorieByDate(int index){
+    public double getCalorieByDate(int index){
         return xmlReaderForConsumptions.getCalorieList().get(index);
     }
 

@@ -33,6 +33,27 @@ public class ControllerForNutritionCalculators {
     }
 
     /**
+     * Empty Constructor.
+     */
+    public ControllerForNutritionCalculators() {
+
+    }
+
+    /**
+     * Constructor.
+     * @param proteinCounter fehérje bevitel számláló.
+     * @param carbohydrateCounter szénhidrát bevitel számláló.
+     * @param fatCounter zsír bevitel számláló.
+     * @param calorieCounter kalória bevitel számláló.
+     */
+    public ControllerForNutritionCalculators(double proteinCounter, double carbohydrateCounter, double fatCounter, double calorieCounter) {
+        this.proteinCounter = proteinCounter;
+        this.carbohydrateCounter = carbohydrateCounter;
+        this.fatCounter = fatCounter;
+        this.calorieCounter = calorieCounter;
+    }
+
+    /**
      * Visszaadja az elfogyasztott élelmiszerek fehérje mennyiségének az összegét.
      * @return az elfogyasztott élelmiszerek fehérje mennyiségének az össege.
      */
